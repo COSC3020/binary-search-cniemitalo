@@ -1,0 +1,12 @@
+{
+  "name": "binary-search-cniemitalo",
+  "version": "1.0.0",
+  "description": "Implement a binary search function that, given a sorted list and an element to look for, returns the index of the element in the list or -1 if the element is not there.",
+  "main": "code.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
