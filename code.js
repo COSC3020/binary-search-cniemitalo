@@ -7,7 +7,7 @@ function binarySearch(list, element) {
     while (high >= low) {
         var mid = (high + low) / 2; 
         //return index when element is found 
-        if (list[mid] == element) {
+        if (list[mid] === element) {
             return mid; 
         } 
         //search the left or right half of the array 
