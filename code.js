@@ -5,7 +5,7 @@ function binarySearch(list, element) {
 
     //loop through while there is one or more elements to check 
     while (high >= low) {
-        var mid = (high + low) / 2; 
+        var mid = Math.floor((high + low) / 2); 
         //return index when element is found 
         if (list[mid] === element) {
             return mid; 
