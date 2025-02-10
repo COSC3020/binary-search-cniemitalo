@@ -15,7 +15,8 @@ function binarySearch(list, element) {
             low = mid + 1; 
         } else {
             high = mid - 1; 
-        } 
+        }
+    }
     //return -1 if element is not found 
     return -1;
 }
