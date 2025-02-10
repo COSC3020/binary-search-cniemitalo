@@ -8,6 +8,10 @@ function binarySearch(list, element) {
         var mid = Math.floor((high + low) / 2); 
         //return index when element is found 
         if (list[mid] === element) {
+            //handle multiple elements, return the first occurence 
+            while (mid > 0 && list[mid - 1] === element) {
+                mid--; 
+            } 
             return mid; 
         } 
         //search the left or right half of the array 
